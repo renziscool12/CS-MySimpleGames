@@ -61,7 +61,8 @@ class Program
             {
                 Console.WriteLine("Invalid input!");
             }
-
+            //User’s 1 becomes array index 0,
+            //that’s why we use --.
             col--;
 
             int row;
