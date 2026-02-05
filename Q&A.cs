@@ -41,7 +41,8 @@ class Program
                     {
                         Console.WriteLine(question[i]);
                         string userAnswer = Console.ReadLine() ??"";
-                        
+
+                        //used string comparison ordinalignore case since our answer isn't case sensetive
                         if (userAnswer.Trim().Equals(answer[i], StringComparison.OrdinalIgnoreCase))
                         {
                             Console.WriteLine("\nCorrect");
